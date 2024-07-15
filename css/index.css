@@ -80,7 +80,7 @@
     margin: 0;
     font-size: 1rem;
     /* background-color: #fff; */
-    background-color: #fffbf1;
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -135,7 +135,7 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    background-color: #f3ebd9;
+    background-color: #fff8d073;
 }
 
 #stage > .card > .card-back > img {
@@ -144,7 +144,7 @@
 
 #stage > .card > .card-front {
     transform: rotateY(180deg);
-    border: 5px solid #f3ebd9;
+    border: 5px solid #fff8d0cb;
     background-color: #fff;
 }
 
@@ -152,7 +152,7 @@
     position: absolute;
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
-    width: 100px;
+    width: 60%;
 }
 
 /* ===== copyright ===== */

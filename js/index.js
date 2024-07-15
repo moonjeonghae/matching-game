@@ -2,6 +2,19 @@ window.onload = function() {
     const stage = document.getElementById('stage');
     let cards = [];
 
+    // # 카드 생성 함수
+    function createCards() {
+        const cardTemplate = stage.querySelector('.card');
+        stage.innerHTML = ''; // 기존 카드 템플릿 제거
+
+        for (let i = 0; i < 18; i++) {
+            const newCard = cardTemplate.cloneNode(true);
+            newCard.setAttribute('data-index', i % 9);
+            stage.appendChild(newCard);
+        }
+    }
+    createCards();
+
     const imagePaths = [
         './images/insideout_1.png',
         './images/insideout_2.png',
