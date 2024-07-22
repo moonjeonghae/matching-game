@@ -1,4 +1,6 @@
 # 🎮 CARD MATCHING GAME
+https://github.com/user-attachments/assets/1f4821bb-0c38-4cbd-9909-a248088fb7f0
+
 
 ## 📢 About
 📆 제작 기간 : 2024.07.13 ~ 2024.07.14 <br>
