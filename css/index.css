@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80px;
+    width: 70px;
     margin: 0;
 }
 
@@ -127,7 +127,7 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    background-color: #fff8d073;
+    background-color: rgba(255, 248, 210, 0.45);
 }
 
 #stage > .card > .card-back > img {
@@ -136,7 +136,7 @@
 
 #stage > .card > .card-front {
     transform: rotateY(180deg);
-    border: 5px solid #fff8d0cb;
+    border: 5px solid rgba(255, 248, 208, 0.80);
     background-color: #fff;
 }
 
